@@ -9,9 +9,6 @@ public class data
     [JsonProperty("cashValue")]
     public string cashValue { get; set; }
 
-    [JsonProperty("doublePlay")]
-    public string[] doublePlay { get; set; }
-
     [JsonProperty("drawDate")]
     public string drawDate { get; set; }
 
