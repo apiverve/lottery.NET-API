@@ -71,7 +71,7 @@ Using the API client, you can perform requests to the API.
 
 ```
 var queryOptions = new LotteryNumbersQueryOptions {
-  numbers = "powerball"
+  lottery = "megamillions"
 };
 ```
 
@@ -94,27 +94,19 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "cashValue": "$10 Million",
-    "doublePlay": [
-      "5",
-      "35",
-      "49",
-      "60",
-      "62",
-      "17"
-    ],
-    "drawDate": "2024-08-14",
-    "jackpot": "$20 Million",
-    "latestNumbersDate": "2024-08-12",
+    "cashValue": "$336.1 Million",
+    "drawDate": "2024-09-03",
+    "jackpot": "$681 Million",
+    "latestNumbersDate": "2024-08-30",
     "numbers": [
-      "9",
-      "22",
-      "57",
-      "67",
-      "68",
-      "14"
+      "10",
+      "17",
+      "20",
+      "24",
+      "54",
+      "8"
     ],
-    "lotteryType": "powerball"
+    "lotteryType": "megamillions"
   },
   "code": 200
 }
