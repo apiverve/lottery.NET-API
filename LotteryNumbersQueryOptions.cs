@@ -5,7 +5,7 @@ using System.Text;
 namespace APIVerve
 {
     public class LotteryNumbersQueryOptions {
-public string numbers { get; set; }
+public string lottery { get; set; }
 }
 
 }
